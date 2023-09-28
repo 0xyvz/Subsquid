@@ -24,5 +24,11 @@ apt install npm
 
 > 4- `Deploy` ediyoruz ve `sync` oluyoruz.
 
+
+SYNC SIKINTISI YAŞAYANLAR İÇİN RPC DEĞİŞİMİ
+> 1- [Buradan](https://dashboard.alchemy.com/apps) üyelik oluşturuyoruz ve sağ üstte create new app diyip ETH mainnette kendi RPCmizi oluşturuyoruz. Ve RPC linkimizi hazırda tutuyoruz.
+> 2- Daha sonra Winscp ile '(deploy adımız)/src/processor.ts' isimli klasörü bulup içerisinde yer alan chain kısmını oluşturduğumuz RPC ile değiştiriyoruz.
+> 3- Son olarak terminalde 'sqd deploy --org isminiz ./isminiz' kodu ile deploy edin. Ve iki defa Yes diyin. Bu kadar
+
 ### Devamı çok yakında..
 
